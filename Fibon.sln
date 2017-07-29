@@ -1,0 +1,69 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{50F0C856-6DB8-4C4F-BDA7-858AB8A946E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibon.Api", "src\Fibon.Api\Fibon.Api.csproj", "{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibon.Messages", "src\Fibon.Messages\Fibon.Messages.csproj", "{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibon.Service", "src\Fibon.Service\Fibon.Service.csproj", "{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}.Debug|x64.ActiveCfg = Debug|x64
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}.Debug|x64.Build.0 = Debug|x64
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}.Debug|x86.ActiveCfg = Debug|x86
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}.Debug|x86.Build.0 = Debug|x86
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}.Release|x64.ActiveCfg = Release|x64
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}.Release|x64.Build.0 = Release|x64
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}.Release|x86.ActiveCfg = Release|x86
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF}.Release|x86.Build.0 = Release|x86
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}.Debug|x64.ActiveCfg = Debug|x64
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}.Debug|x64.Build.0 = Debug|x64
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}.Debug|x86.ActiveCfg = Debug|x86
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}.Debug|x86.Build.0 = Debug|x86
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}.Release|x64.ActiveCfg = Release|x64
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}.Release|x64.Build.0 = Release|x64
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}.Release|x86.ActiveCfg = Release|x86
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2}.Release|x86.Build.0 = Release|x86
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}.Debug|x64.ActiveCfg = Debug|x64
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}.Debug|x64.Build.0 = Debug|x64
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}.Debug|x86.ActiveCfg = Debug|x86
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}.Debug|x86.Build.0 = Debug|x86
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}.Release|x64.ActiveCfg = Release|x64
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}.Release|x64.Build.0 = Release|x64
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}.Release|x86.ActiveCfg = Release|x86
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{864AD07A-E609-4BB0-9CC8-665D2C8BADBF} = {50F0C856-6DB8-4C4F-BDA7-858AB8A946E7}
+		{BB9BBD77-EA5C-4DEC-8D48-0DB082C470E2} = {50F0C856-6DB8-4C4F-BDA7-858AB8A946E7}
+		{162A4666-F8B4-4E6C-BBB6-06CEF9080D82} = {50F0C856-6DB8-4C4F-BDA7-858AB8A946E7}
+	EndGlobalSection
+EndGlobal
