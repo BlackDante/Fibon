@@ -1,10 +1,38 @@
 ﻿using System;
+using Fibon.Messages;
+using System.Threading.Tasks;
+using RawRabbit;
+using System.Net.Http.Headers;
 namespace Fibon.Service.Handlers
 {
-    public class CalculateValueCommandHandler
+    public class CalculateValueCommandHandler : ICommandHandler<CalculateValueCommand>
     {
-        public CalculateValueCommandHandler()
+        private readonly IBusClient _client;
+
+        public CalculateValueCommandHandler(IBusClient client)
         {
+            _client = client;
+        }
+
+        public async Task HandleAsync(CalculateValueCommand command) 
+        {
+            int result = Fib(command.Number);
+
+            await _client.PublishAsync(new ValueCalculated
+            {
+                Number = command.Number,
+                Result = result
+            });
+        }
+
+        private int Fib(int n) {
+            switch(n)
+            {
+                case 0: return 0;
+                case 1: return 1;
+                default:
+                    return Fib(n - 2) + Fib(n - 1);
+            }
         }
     }
 }
