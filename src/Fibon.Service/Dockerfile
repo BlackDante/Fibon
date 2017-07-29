@@ -4,4 +4,4 @@ COPY ./bin/Docker .
 
 ENV ASPNETCORE_ENVIRONMENT docker
 
-ENTRYPOINT dotnet Fibon.Services.dll --urls="http://*:5050"
+ENTRYPOINT dotnet Fibon.Service.dll --urls="http://*:5050"
