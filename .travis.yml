@@ -7,7 +7,7 @@ branches:
   only:
     - master
     - develop
-before_scripts:
+before_script:
   - chmod a+x dotnet-build.sh
   - chmod a+x build.sh
   - chmod a+x after-success.sh
