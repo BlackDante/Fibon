@@ -18,7 +18,7 @@ namespace Fibon.Service.Handlers
         {
             int result = Fib(command.Number);
 
-            await _client.PublishAsync(new ValueCalculated
+            await _client.PublishAsync(new ValueCalculatedEvent
             {
                 Number = command.Number,
                 Result = result
